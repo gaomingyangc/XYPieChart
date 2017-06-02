@@ -20,6 +20,10 @@
 		599713FD1EDFFAE6000F69A2 /* XYRotatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599713FC1EDFFAE6000F69A2 /* XYRotatedView.m */; };
 		599714001EDFFBEC000F69A2 /* XYRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599713FF1EDFFBEC000F69A2 /* XYRenderView.m */; };
 		599714061EE014CA000F69A2 /* XYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 599714051EE014CA000F69A2 /* XYCommon.m */; };
+		E15E8D141EE1D9C500C4A681 /* XYPieChart01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D131EE1D9C500C4A681 /* XYPieChart01.gif */; };
+		E15E8D161EE1D9D200C4A681 /* XYPiechart01.png in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D151EE1D9D200C4A681 /* XYPiechart01.png */; };
+		E15E8D181EE1D9DA00C4A681 /* XYPieChart02.gif in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D171EE1D9DA00C4A681 /* XYPieChart02.gif */; };
+		E15E8D1A1EE1D9E000C4A681 /* XYPiechart02.png in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D191EE1D9E000C4A681 /* XYPiechart02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		599713FF1EDFFBEC000F69A2 /* XYRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRenderView.m; sourceTree = "<group>"; };
 		599714041EE014CA000F69A2 /* XYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommon.h; sourceTree = "<group>"; };
 		599714051EE014CA000F69A2 /* XYCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCommon.m; sourceTree = "<group>"; };
+		E15E8D131EE1D9C500C4A681 /* XYPieChart01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XYPieChart01.gif; sourceTree = "<group>"; };
+		E15E8D151EE1D9D200C4A681 /* XYPiechart01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XYPiechart01.png; sourceTree = "<group>"; };
+		E15E8D171EE1D9DA00C4A681 /* XYPieChart02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XYPieChart02.gif; sourceTree = "<group>"; };
+		E15E8D191EE1D9E000C4A681 /* XYPiechart02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XYPiechart02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 		599713C21EDFF86C000F69A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E15E8D121EE1D96500C4A681 /* gif */,
 				599713C31EDFF86C000F69A2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -169,6 +178,17 @@
 				599714051EE014CA000F69A2 /* XYCommon.m */,
 			);
 			path = PieChartView;
+			sourceTree = "<group>";
+		};
+		E15E8D121EE1D96500C4A681 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				E15E8D131EE1D9C500C4A681 /* XYPieChart01.gif */,
+				E15E8D151EE1D9D200C4A681 /* XYPiechart01.png */,
+				E15E8D171EE1D9DA00C4A681 /* XYPieChart02.gif */,
+				E15E8D191EE1D9E000C4A681 /* XYPiechart02.png */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,10 +298,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15E8D141EE1D9C500C4A681 /* XYPieChart01.gif in Resources */,
+				E15E8D161EE1D9D200C4A681 /* XYPiechart01.png in Resources */,
 				599713D21EDFF86C000F69A2 /* LaunchScreen.storyboard in Resources */,
 				599713F71EDFF8E1000F69A2 /* PieChart.xcassets in Resources */,
 				599713CF1EDFF86C000F69A2 /* Assets.xcassets in Resources */,
 				599713CD1EDFF86C000F69A2 /* Main.storyboard in Resources */,
+				E15E8D1A1EE1D9E000C4A681 /* XYPiechart02.png in Resources */,
+				E15E8D181EE1D9DA00C4A681 /* XYPieChart02.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +568,7 @@
 				599713EE1EDFF86D000F69A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599713EF1EDFF86D000F69A2 /* Build configuration list for PBXNativeTarget "PieChartTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +577,7 @@
 				599713F11EDFF86D000F69A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599713F21EDFF86D000F69A2 /* Build configuration list for PBXNativeTarget "PieChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +586,7 @@
 				599713F41EDFF86D000F69A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
