@@ -20,6 +20,7 @@
 		599713FD1EDFFAE6000F69A2 /* XYRotatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599713FC1EDFFAE6000F69A2 /* XYRotatedView.m */; };
 		599714001EDFFBEC000F69A2 /* XYRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599713FF1EDFFBEC000F69A2 /* XYRenderView.m */; };
 		599714061EE014CA000F69A2 /* XYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 599714051EE014CA000F69A2 /* XYCommon.m */; };
+		E13005051EE3F22900956D5E /* XYPiechart03.png in Resources */ = {isa = PBXBuildFile; fileRef = E13005041EE3F22900956D5E /* XYPiechart03.png */; };
 		E15E8D141EE1D9C500C4A681 /* XYPieChart01.gif in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D131EE1D9C500C4A681 /* XYPieChart01.gif */; };
 		E15E8D161EE1D9D200C4A681 /* XYPiechart01.png in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D151EE1D9D200C4A681 /* XYPiechart01.png */; };
 		E15E8D181EE1D9DA00C4A681 /* XYPieChart02.gif in Resources */ = {isa = PBXBuildFile; fileRef = E15E8D171EE1D9DA00C4A681 /* XYPieChart02.gif */; };
@@ -69,6 +70,7 @@
 		599713FF1EDFFBEC000F69A2 /* XYRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRenderView.m; sourceTree = "<group>"; };
 		599714041EE014CA000F69A2 /* XYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommon.h; sourceTree = "<group>"; };
 		599714051EE014CA000F69A2 /* XYCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCommon.m; sourceTree = "<group>"; };
+		E13005041EE3F22900956D5E /* XYPiechart03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XYPiechart03.png; sourceTree = "<group>"; };
 		E15E8D131EE1D9C500C4A681 /* XYPieChart01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XYPieChart01.gif; sourceTree = "<group>"; };
 		E15E8D151EE1D9D200C4A681 /* XYPiechart01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XYPiechart01.png; sourceTree = "<group>"; };
 		E15E8D171EE1D9DA00C4A681 /* XYPieChart02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XYPieChart02.gif; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		E15E8D121EE1D96500C4A681 /* gif */ = {
 			isa = PBXGroup;
 			children = (
+				E13005041EE3F22900956D5E /* XYPiechart03.png */,
 				E15E8D131EE1D9C500C4A681 /* XYPieChart01.gif */,
 				E15E8D151EE1D9D200C4A681 /* XYPiechart01.png */,
 				E15E8D171EE1D9DA00C4A681 /* XYPieChart02.gif */,
@@ -305,6 +308,7 @@
 				599713CF1EDFF86C000F69A2 /* Assets.xcassets in Resources */,
 				599713CD1EDFF86C000F69A2 /* Main.storyboard in Resources */,
 				E15E8D1A1EE1D9E000C4A681 /* XYPiechart02.png in Resources */,
+				E13005051EE3F22900956D5E /* XYPiechart03.png in Resources */,
 				E15E8D181EE1D9DA00C4A681 /* XYPieChart02.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

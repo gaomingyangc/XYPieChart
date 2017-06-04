@@ -63,7 +63,7 @@
     self.pieChartView.delegate = self;
     
     // 当有一项数据的百分比小于你所校验的数值时，会将该项数值百分比移出饼图展示（校验数值从0~100）
-    [self.pieChartView setCheckLessThanPercent:0];
+    [self.pieChartView setCheckLessThanPercent:16];
     
     // 刷新加载
     [self.pieChartView reloadChart];
@@ -83,7 +83,7 @@
 
     if (_pieChartArray == nil) {
         
-        _pieChartArray = [NSMutableArray arrayWithObjects:@{@"title":@"餐饮", @"percent":@"33.2", @"amount":@"10234"}, @{@"title":@"购物", @"percent":@"26.8", @"amount":@"9820"} ,@{@"title":@"娱乐", @"percent":@"15.5", @"amount":@"3450"} ,@{@"title":@"零食", @"percent":@"25.5", @"amount":@"9700"}, nil];
+        _pieChartArray = [NSMutableArray arrayWithObjects:@{@"title":@"餐饮", @"percent":@"33.2", @"amount":@"10234"}, @{@"title":@"购物", @"percent":@"26.8", @"amount":@"9820"} ,@{@"title":@"娱乐", @"percent":@"5.5", @"amount":@"1450"} ,@{@"title":@"零食", @"percent":@"35.5", @"amount":@"9700"}, nil];
     }
     
     return _pieChartArray;
@@ -93,7 +93,7 @@
 
     if (_pieChartPercentArray == nil) {
         
-        _pieChartPercentArray = [NSMutableArray arrayWithObjects:@"33.2", @"26.8", @"15.5", @"25.5", nil];
+        _pieChartPercentArray = [NSMutableArray arrayWithObjects:@"33.2", @"26.8", @"5.5", @"35.5", nil];
     }
     return _pieChartPercentArray;
 }
