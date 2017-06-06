@@ -4,7 +4,7 @@
 ![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPieChart01.gif)
 ![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPieChart02.gif)
 2. 该饼图有两种展示形式，可供使用者选择。<br>
-![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPiechart01.png)
-![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPiechart02.png)
+![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPieChart01.png)
+![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPieChart02.png)
 3. 可将最小的百分比进行特殊展示，避免了因数据过小而展示不全。<br>
-![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPiechart03.png)
+![image](https://github.com/gaomingyangc/XYPieChart/blob/master/PieChart/gif/XYPieChart03.png)
